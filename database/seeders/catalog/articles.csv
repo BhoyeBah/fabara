@@ -1,0 +1,66 @@
+﻿sous_menu;nom;prix;stock;cout;description;image
+Vêtements pour Femme;Robe longue en wax;280000;12;170000;Robe longue évasée en tissu wax, coupe ajustée à la taille. Plusieurs motifs disponibles.;robe-longue-en-wax.jpg
+Vêtements pour Femme;Ensemble pagne deux pièces;350000;8;220000;Haut et jupe assortis, finitions soignées. Idéal pour les cérémonies.;ensemble-pagne-deux-pieces.jpg
+Vêtements pour Femme;Chemisier en satin;150000;15;90000;Chemisier fluide en satin, manches longues, plusieurs couleurs.;chemisier-en-satin.jpg
+Vêtements pour Femme;Jupe plissée mi-longue;120000;10;70000;Jupe plissée élégante, taille élastique confortable.;jupe-plissee-mi-longue.jpg
+Vêtements pour Femme;Robe de soirée;450000;5;290000;Robe de soirée habillée, tissu fluide, doublée.;robe-de-soiree.jpg
+Vêtements pour Homme;Chemise en lin;180000;14;110000;Chemise légère en lin, parfaite pour la chaleur. Du S au XXL.;chemise-en-lin.jpg
+Vêtements pour Homme;Polo en coton;110000;20;65000;Polo en coton piqué, col classique, plusieurs coloris.;polo-en-coton.jpg
+Vêtements pour Homme;Pantalon chino;200000;12;125000;Pantalon chino coupe droite, coton stretch.;pantalon-chino.jpg
+Vêtements pour Homme;Ensemble bazin brodé;480000;6;310000;Ensemble deux pièces en bazin riche avec broderie au col.;ensemble-bazin-brode.jpg
+Vêtements pour Homme;T-shirt col rond;70000;30;38000;T-shirt en coton doux, coupe regular, plusieurs couleurs.;t-shirt-col-rond.jpg
+Tunique MakiSall;Tunique MakiSall brodée;320000;9;200000;Tunique MakiSall avec broderies fines, tissu léger et confortable.;tunique-makisall-brodee.jpg
+Tunique MakiSall;Tunique MakiSall classique;260000;11;160000;Tunique MakiSall coupe droite, col rond, plusieurs coloris.;tunique-makisall-classique.jpg
+Tunique MakiSall;Tunique MakiSall de cérémonie;420000;5;270000;Tunique de cérémonie avec finitions dorées et broderies soignées.;tunique-makisall-de-ceremonie.jpg
+Produits Cosmétiques de Thaïlande;Crème hydratante au lait de riz;65000;25;38000;Crème hydratante pour le visage et le corps, texture légère.;creme-hydratante-au-lait-de-riz.jpg
+Produits Cosmétiques de Thaïlande;Savon au curcuma;25000;40;13000;Savon doux au curcuma, parfum naturel.;savon-au-curcuma.jpg
+Produits Cosmétiques de Thaïlande;Masque visage au riz;35000;30;19000;Masque de soin pour le visage, à appliquer 10 minutes.;masque-visage-au-riz.jpg
+Produits Cosmétiques de Thaïlande;Huile de coco pressée à froid;55000;18;32000;Huile de coco pour la peau et les cheveux, flacon de 250 ml.;huile-de-coco-pressee-a-froid.jpg
+Produits Cosmétiques de Thaïlande;Baume à lèvres à la noix de coco;20000;50;9000;Baume nourrissant pour les lèvres, format de poche.;baume-a-levres-a-la-noix-de-coco.jpg
+Chaussures;Sandales en cuir pour femme;160000;14;95000;Sandales plates en cuir souple, semelle confortable.;sandales-en-cuir-pour-femme.jpg
+Chaussures;Baskets homme;280000;10;175000;Baskets légères à lacets, semelle amortissante.;baskets-homme.jpg
+Chaussures;Mocassins en cuir homme;320000;7;200000;Mocassins élégants en cuir, doublure respirante.;mocassins-en-cuir-homme.jpg
+Chaussures;Ballerines femme;130000;12;78000;Ballerines confortables, plusieurs coloris.;ballerines-femme.jpg
+Bijoux et Montres;Montre homme bracelet acier;380000;8;240000;Montre à quartz, bracelet en acier inoxydable, étanche au quotidien.;montre-homme-bracelet-acier.jpg
+Bijoux et Montres;Montre femme dorée;320000;9;200000;Montre fine, cadran rond, bracelet doré.;montre-femme-doree.jpg
+Bijoux et Montres;Collier plaqué or;140000;15;80000;Collier fin avec pendentif, plaqué or.;collier-plaque-or.jpg
+Bijoux et Montres;Bracelet en perles;60000;25;32000;Bracelet élastique en perles, taille unique.;bracelet-en-perles.jpg
+Bijoux et Montres;Boucles d'oreilles dorées;75000;20;42000;Boucles d'oreilles légères, finition dorée.;boucles-d-oreilles-dorees.jpg
+Accessoires IPhones et Macs;Coque de protection iPhone;55000;35;28000;Coque résistante aux chocs, plusieurs modèles d'iPhone.;coque-de-protection-iphone.jpg
+Accessoires IPhones et Macs;Chargeur rapide USB-C 20 W;120000;20;75000;Chargeur secteur rapide, compatible iPhone et iPad.;chargeur-rapide-usb-c-20-w.jpg
+Accessoires IPhones et Macs;Câble USB-C vers Lightning 1 m;60000;30;32000;Câble de charge et de synchronisation, 1 mètre.;cable-usb-c-vers-lightning-1-m.jpg
+Accessoires IPhones et Macs;Verre trempé de protection;35000;45;15000;Protection d'écran en verre trempé, pose facile.;verre-trempe-de-protection.jpg
+Accessoires IPhones et Macs;Housse pour MacBook 13 pouces;180000;8;110000;Housse matelassée avec doublure douce et fermeture zippée.;housse-pour-macbook-13-pouces.jpg
+Sacs;Sac à main femme;220000;10;135000;Sac à main spacieux, plusieurs compartiments, anse réglable.;sac-a-main-femme.jpg
+Sacs;Sac à dos ville;190000;12;115000;Sac à dos avec compartiment ordinateur 15 pouces.;sac-a-dos-ville.jpg
+Sacs;Pochette de soirée;130000;9;78000;Pochette élégante avec chaînette amovible.;pochette-de-soiree.jpg
+Sacs;Grand sac cabas;160000;11;95000;Cabas solide pour le marché ou la plage.;grand-sac-cabas.jpg
+Cachets;Cachet automatique rond;60000;;25000;Cachet encreur automatique rond, texte et logo sur mesure. Livraison sous 24 h.;cachet-automatique-rond.jpg
+Cachets;Cachet automatique rectangulaire;55000;;22000;Cachet rectangulaire pour nom, adresse, signature.;cachet-automatique-rectangulaire.jpg
+Carnets de Factures, Reçus, Bons…;Carnet de factures A5 duplicata;45000;;22000;50 feuillets autocopiants, numérotation en option, avec votre en-tête.;carnet-de-factures-a5-duplicata.jpg
+Carnets de Factures, Reçus, Bons…;Carnet de reçus;35000;;17000;Carnet de reçus personnalisé, 50 feuillets duplicata.;carnet-de-recus.jpg
+Carnets de Factures, Reçus, Bons…;Bons de livraison;;;0;Bons de livraison personnalisés, prix selon le format et la quantité.;bons-de-livraison.jpg
+Cartes de visite;Cartes de visite x100;50000;;18000;100 cartes 85 x 55 mm, papier épais, recto-verso en couleur.;cartes-de-visite-x100.jpg
+Cartes de visite;Cartes de visite x500;150000;;70000;500 cartes recto-verso avec pelliculage mat ou brillant.;cartes-de-visite-x500.jpg
+Badges numériques;Badge PVC avec photo;25000;;10000;Badge d'identification en PVC avec photo et nom, porte-badge en option.;badge-pvc-avec-photo.jpg
+Badges numériques;Badge magnétique;20000;;8000;Badge avec attache magnétique, texte et logo sur mesure.;badge-magnetique.jpg
+Tableaux Photos;Tableau photo sur toile 30 x 40;180000;;90000;Votre photo imprimée sur toile, prête à accrocher.;tableau-photo-sur-toile-30-x-40.jpg
+Tableaux Photos;Cadre photo imprimé;90000;;42000;Photo imprimée en haute qualité avec cadre au choix.;cadre-photo-imprime.jpg
+Sacs Personnalisés;Tote bag en coton imprimé;60000;;28000;Sac en coton avec votre logo ou motif. Tarif dégressif à partir de 20 pièces.;tote-bag-en-coton-imprime.jpg
+Sacs Personnalisés;Sac papier kraft avec logo;;;0;Sacs de boutique personnalisés, prix selon la quantité.;sac-papier-kraft-avec-logo.jpg
+Éventails personnalisés;Éventail personnalisé;;;0;Éventails pliants ou en carton avec votre message, idéal pour les événements.;eventail-personnalise.jpg
+Étiquettes personnalisées;Étiquettes autocollantes en rouleau;;;0;Étiquettes pour produits et emballages, formes et tailles au choix.;etiquettes-autocollantes-en-rouleau.jpg
+Bâches;Bâche publicitaire 2 x 1 m;;;0;Bâche PVC imprimée en grand format, œillets inclus. Prix au mètre carré.;bache-publicitaire-2-x-1-m.jpg
+Bâches;Bâche d'enseigne 3 x 1 m;;;0;Bâche pour devanture ou chantier, résistante au soleil et à la pluie.;bache-d-enseigne-3-x-1-m.jpg
+Autocollant;Autocollants vinyle découpés;30000;;12000;Planche d'autocollants vinyle résistants, découpés à la forme.;autocollants-vinyle-decoupes.jpg
+Calendrier;Calendrier mural 2027;;;0;Calendrier mural personnalisé avec vos photos ou votre activité.;calendrier-mural-2027.jpg
+Calendrier;Calendrier de bureau;;;0;Calendrier chevalet personnalisé, 12 pages.;calendrier-de-bureau.jpg
+Offset;Flyers A5 x1000;250000;;120000;1 000 flyers A5 en impression offset, papier couché 135 g.;flyers-a5-x1000.jpg
+Offset;Brochures et dépliants;;;0;Brochures, catalogues et dépliants imprimés en offset, devis selon le nombre de pages.;brochures-et-depliants.jpg
+T-shirt et Polo;T-shirt personnalisé;70000;;38000;T-shirt en coton avec votre impression. Tarif dégressif à partir de 10 pièces.;t-shirt-personnalise.jpg
+T-shirt et Polo;Polo brodé logo;120000;;70000;Polo avec votre logo brodé sur la poitrine.;polo-brode-logo.jpg
+Porte-clés personnalisés;Porte-clés personnalisé;15000;;6000;Porte-clés en métal ou acrylique avec votre logo.;porte-cles-personnalise.jpg
+Pochettes personnalisées;Pochette zippée personnalisée;45000;;20000;Pochette zippée imprimée à votre image.;pochette-zippee-personnalisee.jpg
+Uv;Impression UV sur objets;;;0;Impression UV haute définition sur coques, bois, métal, verre. Devis selon l'objet.;impression-uv-sur-objets.jpg
+Blocs Notes - Stylos Personnalisés;Stylos personnalisés;8000;;3000;Stylo à bille avec votre logo. Prix à l'unité, dégressif par lot.;stylos-personnalises.jpg
+Blocs Notes - Stylos Personnalisés;Bloc-notes A5 personnalisé;35000;;15000;Bloc-notes A5 de 50 feuilles avec votre en-tête.;bloc-notes-a5-personnalise.jpg
