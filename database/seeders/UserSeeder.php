@@ -20,9 +20,9 @@ class UserSeeder extends Seeder
         }
         // CHANGEZ ces mots de passe dès la première connexion (Admin > Utilisateurs).
         $users = [
-            ['Administrateur', 'admin@fabara.local', Role::Admin, 'ChangeMe-Admin-2026'],
-            ['Gérante', 'gerante@fabara.local', Role::Gerante, 'ChangeMe-Gerante-2026'],
-            ['Agent 1', 'agent1@fabara.local', Role::Agent, 'ChangeMe-Agent-2026'],
+            ['Administrateur', 'fabara@gmail.com', Role::Admin, 'Abcde150'],
+            ['Gérante', 'aissatou@gmail.com', Role::Gerante, 'Abcde150'],
+            ['Agent', 'biro@gmail.com', Role::Agent, 'Abcde150'],
         ];
         foreach ($users as [$name, $email, $role, $pass]) {
             User::firstOrCreate(['email' => $email], ['name' => $name, 'role' => $role, 'password' => $pass, 'is_active' => true]);

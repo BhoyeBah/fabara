@@ -31,7 +31,13 @@ class FabaraTest extends TestCase
 
     private function user(string $who): User
     {
-        return User::where('email', $who . '@fabara.local')->firstOrFail();
+        $emails = [
+            'admin' => 'fabara@gmail.com',
+            'gerante' => 'aissatou@gmail.com',
+            'agent1' => 'biro@gmail.com',
+        ];
+
+        return User::where('email', $emails[$who] ?? $who . '@fabara.local')->firstOrFail();
     }
 
     // ---------- site public ----------
@@ -58,18 +64,18 @@ class FabaraTest extends TestCase
     // ---------- connexion et droits ----------
     public function test_login_redirects_each_role_to_its_interface(): void
     {
-        $this->post('/connexion', ['email' => 'admin@fabara.local', 'password' => 'ChangeMe-Admin-2026'])->assertRedirect('/admin');
+        $this->post('/connexion', ['email' => 'fabara@gmail.com', 'password' => 'Abcde150'])->assertRedirect('/admin');
         auth()->logout();
-        $this->post('/connexion', ['email' => 'gerante@fabara.local', 'password' => 'ChangeMe-Gerante-2026'])->assertRedirect('/caisse');
+        $this->post('/connexion', ['email' => 'aissatou@gmail.com', 'password' => 'Abcde150'])->assertRedirect('/caisse');
         auth()->logout();
-        $this->post('/connexion', ['email' => 'agent1@fabara.local', 'password' => 'ChangeMe-Agent-2026'])->assertRedirect('/atelier');
+        $this->post('/connexion', ['email' => 'biro@gmail.com', 'password' => 'Abcde150'])->assertRedirect('/atelier');
     }
 
     public function test_wrong_password_and_inactive_account_are_refused(): void
     {
-        $this->post('/connexion', ['email' => 'admin@fabara.local', 'password' => 'faux'])->assertSessionHasErrors('email');
-        User::where('email', 'agent1@fabara.local')->update(['is_active' => false]);
-        $this->post('/connexion', ['email' => 'agent1@fabara.local', 'password' => 'ChangeMe-Agent-2026'])->assertSessionHasErrors('email');
+        $this->post('/connexion', ['email' => 'fabara@gmail.com', 'password' => 'faux'])->assertSessionHasErrors('email');
+        User::where('email', 'biro@gmail.com')->update(['is_active' => false]);
+        $this->post('/connexion', ['email' => 'biro@gmail.com', 'password' => 'Abcde150'])->assertSessionHasErrors('email');
     }
 
     public function test_roles_cannot_open_other_interfaces(): void
@@ -206,7 +212,7 @@ class FabaraTest extends TestCase
     public function test_api_sale_ignores_client_prices_and_gerante_discount(): void
     {
         $p = $this->product(['price' => 100, 'stock' => 10]);
-        $token = $this->postJson('/api/login', ['email' => 'gerante@fabara.local', 'password' => 'ChangeMe-Gerante-2026'])->assertOk()->json('token');
+        $token = $this->postJson('/api/login', ['email' => 'aissatou@gmail.com', 'password' => 'Abcde150'])->assertOk()->json('token');
         $r = $this->withToken($token)->postJson('/api/sales', [
             'discount' => 50, 'items' => [['product_id' => $p->id, 'quantity' => 2, 'unit_price' => 1]],
         ])->assertCreated();
@@ -416,7 +422,7 @@ class FabaraTest extends TestCase
     public function test_staff_cannot_use_client_deletion_and_clients_are_hidden_from_team_list(): void
     {
         $this->actingAs($this->user('admin'));
-        $this->delete('/mon-compte', ['password' => 'ChangeMe-Admin-2026', 'confirm' => '1'])->assertForbidden();
+        $this->delete('/mon-compte', ['password' => 'Abcde150', 'confirm' => '1'])->assertForbidden();
         User::create(['name' => 'Cli', 'email' => 'cli@test.com', 'password' => 'motdepasse1', 'role' => 'client', 'is_active' => true]);
         $this->assertSame(0, \App\Filament\Resources\UserResource::getEloquentQuery()->where('email', 'cli@test.com')->count());
     }
