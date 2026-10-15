@@ -78,6 +78,15 @@ class FabaraTest extends TestCase
         $this->post('/connexion', ['email' => 'biro@gmail.com', 'password' => 'Abcde150'])->assertSessionHasErrors('email');
     }
 
+    public function test_user_seeder_reactivates_existing_staff_accounts(): void
+    {
+        User::where('email', 'biro@gmail.com')->update(['is_active' => false]);
+
+        $this->seed(\Database\Seeders\UserSeeder::class);
+
+        $this->assertDatabaseHas('users', ['email' => 'biro@gmail.com', 'is_active' => true]);
+    }
+
     public function test_roles_cannot_open_other_interfaces(): void
     {
         $this->actingAs($this->user('agent1'))->get('/admin')->assertForbidden();

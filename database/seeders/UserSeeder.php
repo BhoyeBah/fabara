@@ -14,7 +14,10 @@ class UserSeeder extends Seeder
             $email = env('ADMIN_EMAIL');
             $pass = env('ADMIN_PASSWORD');
             if ($email && $pass) {
-                User::firstOrCreate(['email' => $email], ['name' => 'Administrateur', 'role' => Role::Admin, 'password' => $pass, 'is_active' => true]);
+                $admin = User::firstOrCreate(['email' => $email], ['name' => 'Administrateur', 'role' => Role::Admin, 'password' => $pass, 'is_active' => true]);
+                if (! $admin->is_active) {
+                    $admin->update(['is_active' => true]);
+                }
             }
             return;
         }
@@ -25,7 +28,10 @@ class UserSeeder extends Seeder
             ['Agent', 'biro@gmail.com', Role::Agent, 'Abcde150'],
         ];
         foreach ($users as [$name, $email, $role, $pass]) {
-            User::firstOrCreate(['email' => $email], ['name' => $name, 'role' => $role, 'password' => $pass, 'is_active' => true]);
+            $user = User::firstOrCreate(['email' => $email], ['name' => $name, 'role' => $role, 'password' => $pass, 'is_active' => true]);
+            if (! $user->is_active) {
+                $user->update(['is_active' => true]);
+            }
         }
     }
 }
